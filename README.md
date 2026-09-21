@@ -26,11 +26,6 @@ export QUIZ_ADMIN_USERNAME="youradmin"
 export QUIZ_ADMIN_PASSWORD="a-strong-password"
 ```
 
-## Configuring the WhatsApp reward button
-
-Edit `ADMIN_WHATSAPP_NUMBER` at the top of `pages/leaderboard.py` (digits
-only, with country code, e.g. `"15551234567"`).
-
 ## Project Structure
 
 ```
