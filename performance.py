@@ -8,8 +8,8 @@ difficulty, using Plotly charts.
 import streamlit as st
 import plotly.express as px
 
-from utils import database_manager as db
-from utils import scoring
+import database_manager as db
+import scoring
 
 
 def render():
