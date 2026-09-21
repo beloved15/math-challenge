@@ -8,7 +8,7 @@ weekly-winner announcement, and a "Contact Admin on WhatsApp" reward button.
 import urllib.parse
 import streamlit as st
 
-from utils import database_manager as db
+import database_manager as db
 
 # Configurable admin WhatsApp number (include country code, digits only).
 ADMIN_WHATSAPP_NUMBER = "+2349053521354"
