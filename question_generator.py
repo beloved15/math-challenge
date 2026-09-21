@@ -10,7 +10,7 @@ questions afterwards from the Admin Dashboard.
 
 import random
 
-from utils import database_manager as db
+import database_manager as db
 
 RANGES = {
     "Easy": (1, 10),
