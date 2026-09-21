@@ -5,7 +5,7 @@ Renders the login screen and handles authenticating a user into session_state.
 """
 
 import streamlit as st
-from utils import authentication as auth
+import authentication as auth
 
 
 def render():
