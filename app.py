@@ -15,10 +15,10 @@ truth for auth + navigation.
 
 import streamlit as st
 
-from utils import database_manager as db
-from utils import question_generator
+import database_manager as db
+import question_generator
 
-from pages import login, register, dashboard, quiz, leaderboard, profile, performance, admin
+import login, register, dashboard, quiz, leaderboard, profile, performance, admin
 
 # --------------------------------------------------------------------------
 # Page configuration
