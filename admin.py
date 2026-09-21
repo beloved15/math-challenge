@@ -7,9 +7,9 @@ user management, and Plotly-powered performance analytics.
 
 import streamlit as st
 
-from utils import authentication as auth
-from utils import database_manager as db
-from utils import analytics
+import authentication as auth
+import database_manager as db
+import analytics
 
 
 # --------------------------------------------------------------------------
