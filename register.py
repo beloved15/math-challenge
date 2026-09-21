@@ -5,7 +5,7 @@ Renders the registration screen and creates new user accounts.
 """
 
 import streamlit as st
-from utils import authentication as auth
+import authentication as auth
 
 
 def render():
