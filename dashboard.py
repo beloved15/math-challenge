@@ -7,7 +7,7 @@ of their stats plus quick-launch cards for the rest of the app.
 
 import streamlit as st
 
-from utils import database_manager as db
+import database_manager as db
 
 
 def render():
