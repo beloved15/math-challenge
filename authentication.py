@@ -10,7 +10,7 @@ import hashlib
 import hmac
 import os
 
-from utils import database_manager as db
+import database_manager as db
 
 # Admin credentials are configurable via environment variables so they are
 # never hard-coded in source control for a real deployment.
