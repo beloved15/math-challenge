@@ -7,7 +7,7 @@ User profile page: view account details and personal quiz history/stats.
 import streamlit as st
 import plotly.express as px
 
-from utils import database_manager as db
+import database_manager as db
 
 
 def render():
