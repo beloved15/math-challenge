@@ -9,9 +9,9 @@ question), and the final results summary.
 import time
 import streamlit as st
 
-from utils import database_manager as db
-from utils import scoring
-from utils import timer
+import database_manager as db
+import scoring
+import timer
 
 
 # --------------------------------------------------------------------------
